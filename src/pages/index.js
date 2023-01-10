@@ -13,6 +13,7 @@ import Duvidas from '../Componentes/Todos/Duvidas'
 
 import Script from 'next/script'
 import Trabalhos from '../Componentes/Todos/Trabalhos'
+import ModalAlert from '../Ultilidades/ModalAlert'
 
 export default function Home() {
   return (
@@ -35,7 +36,9 @@ export default function Home() {
         <Contato/>
         <Trabalhos/>
         <Duvidas/>
+        <ModalAlert/>
         <Footer/>
+
       </main>
 
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></Script>

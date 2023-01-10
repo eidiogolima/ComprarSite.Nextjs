@@ -25,9 +25,8 @@ const ModalAlert = () => {
           className="position-fixed p-2 p-sm-3 cor-b-1 rounded shadow bottom-0 mx-4 mb-4 z-3 modal "
         >
           <div>
-            {' '}
-            <h6>+ {pessoaAleatorio} Pessoas compraram um site </h6>
-            <span>{minutoAleatorio} min atrás...</span>{' '}
+            <h6>+ {pessoaAleatorio} Pessoas entraram em contato </h6>
+            <span>{minutoAleatorio} min atrás...</span>
           </div>
         </div>
       ) : (
