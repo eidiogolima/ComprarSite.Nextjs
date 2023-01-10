@@ -1,0 +1,209 @@
+ 
+:root{
+  --cor-0:#FFFFFF;
+  --cor-1:#F7F7F7;
+  --cor-2:#EDEDED;
+  --cor-3:#DEDEDE;
+  --cor-4:#CCCCCC;
+  --cor-5:#B2B2B2;
+  --cor-6:#9C9C9C;
+  --cor-7:#717171;
+  --cor-8:#595959;
+  --cor-9:#404040;
+  --cor-10:#2E2E2E;
+  --cor-11:#111111;
+  --cor-12:#000000;
+  --cor-p1:#2D033B;
+  --cor-p2: #64137E;
+  --background-intro: url('./bg-introducao.webp')
+}
+.cor-b-p2 {
+  background: var(--cor-p2);
+}
+.cor-b-p1 {
+  background: var(--cor-p1);
+}
+.cor-b-0 {
+  background: var(--cor-0);
+}
+.cor-b-1 {
+  background: var(--cor-1);
+}
+.cor-b-2 {
+  background: var(--cor-2);
+}
+.cor-b-3 {
+  background: var(--cor-3);
+}
+.cor-b-4 {
+  background: var(--cor-4);
+}
+.cor-b-5 {
+  background: var(--cor-5);
+}
+.cor-b-6 {
+  background: var(--cor-6);
+}
+.cor-b-7 {
+  background: var(--cor-7);
+}
+.cor-b-8 {
+  background: var(--cor-8);
+}
+.cor-b-9 {
+  background: var(--cor-9);
+}
+.cor-b-10 {
+  background: var(--cor-10);
+}
+.cor-b-11 {
+  background: var(--cor-11);
+}
+.cor-b-12 {
+  background: var(--cor-12);
+}
+
+
+.cor-0 {
+  color: var(--cor-0);
+}
+.cor-1 {
+  color: var(--cor-1);
+}
+.cor-2 {
+  color: var(--cor-2);
+}
+.cor-3 {
+  color: var(--cor-3);
+}
+.cor-4 {
+  color: var(--cor-4);
+}
+.cor-5 {
+  color: var(--cor-5);
+}
+.cor-6 {
+  color: var(--cor-6);
+}
+.cor-7 {
+  color: var(--cor-7);
+}
+.cor-8 {
+  color: var(--cor-8);
+}
+.cor-9 {
+  color: var(--cor-9);
+}
+.cor-10 {
+  color: var(--cor-10);
+}
+.cor-11 {
+  color: var(--cor-11);
+}
+.cor-12 {
+  color: var(--cor-12);
+}
+.cor-p1 {
+  color: var(--cor-p1);
+}
+
+.cor-p2 {
+  color: var(--cor-p2);
+}
+
+
+.btn {
+font-weight: 500;
+}
+
+#index {
+  z-index: 2 !important;
+  animation: 1s anima-left forwards;
+}
+
+@keyframes anima-left {
+  0% {
+    left:-20px;
+    opacity: 0;
+
+  }
+  100% {
+    left:0px;
+    opacity: 1;
+
+  }
+}
+
+.listImportant{
+  
+  display: flex !important;
+  gap: 10px;
+  align-items: center !important;
+  align-self: center !important;
+  align-content: center !important;
+}
+img {
+  width: 100% ;
+  height: auto;
+}
+
+.text-secondary-l {
+  font-family: Roboto;
+  letter-spacing: 0.02em;
+  font-weight: 500 !important;
+}
+
+.estoura {
+  margin-top: -100px;
+}
+
+@media (max-width: 742px){
+  .estoura {
+    margin-top: 0px;
+  }
+}
+
+
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
+  color: inherit;
+  opacity: .8;
+}
+
+.introducao {
+  background-size: cover !important;
+  min-height: 60vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0,0,0,0,.2);
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .logo-parceiros img{
+    width: auto !important;
+    
+  }
+}
+
+
+@media (max-width: 768px) {
+  .introducao {
+    min-height: 30vh;
+  }
+}
+
+  @media (max-width: 420px) {
+    :root { --background-intro: url(./bg-introducao-mobile.webp); }
+}
+
+
