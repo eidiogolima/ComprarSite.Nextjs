@@ -19,7 +19,7 @@ export default function Home() {
     <>
       <Head>
         <title>Comprar Site | Home</title>
-        <meta name="description" content="Comprar sites nunca foi tão fácil" />
+        <meta name="description" content="Comprar sites nunca foi tão fácil, tenha seu site feito por um desenvolvedor de site/web e profissional da area." />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#C147E9"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
