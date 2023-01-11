@@ -10,7 +10,7 @@ import Contato from '../Componentes/Todos/Contato'
 import Duvidas from '../Componentes/Todos/Duvidas'
 
 
-
+import Link from 'next/link'
 import Script from 'next/script'
 import Trabalhos from '../Componentes/Todos/Trabalhos'
 import ModalAlert from '../Ultilidades/ModalAlert'
@@ -24,10 +24,7 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#C147E9"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type = "image/png" sizes = "16x16"href="/static/favicon.png" />
-
-        
-
+        <link rel="icon" type = "image/png" sizes = "16x16" href="/favicon.png" /> 
       </Head>
       <main>
         <Header/>
