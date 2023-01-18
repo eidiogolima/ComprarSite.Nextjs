@@ -31,8 +31,8 @@ export default function Home() {
         <Introducao/>
         <Beneficios/>
         <Contato/>
-        <Trabalhos/>
         <Duvidas/>
+        <Trabalhos/>
         <ModalAlert/>
         <Footer/>
 

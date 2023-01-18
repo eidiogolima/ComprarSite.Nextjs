@@ -43,10 +43,10 @@ const Contato = () => {
       <div className="container-md  container-fluid position-relative z-2 py-md-6 py-4">
         <div className="row d-grid d-md-flex align-items-center cor-b-1 shadow rounded p-2 p-md-5 py-4 mx-2 mx-sm-0">
           <div className="col ">
-            <h1 className="cor-p1 mb-4 fw-bold">Deixa com a gente😉</h1>
-            <h2 className="cor-8 mb-3">Entramos em contato com você. </h2>
+            <h1 className="cor-p1 mb-4 fw-bold">Vamos conversar?😉</h1>
+            <h2 className="cor-8 mb-3">Tire a sua ideia do papel</h2>
             <p className="cor-8 fw-semibold mb-4">
-              Deixe seu nome e numero de celular para entrarmos em contato.{' '}
+              Deixe seu nome e numero de celular para entrarmos em contato. (Fique tranquilo, não compartilhamos seus dados com ninguém){' '}
             </p>
 
             <ul className="d-grid gap-3 mb-3 mb-md-0">
