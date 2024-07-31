@@ -7,7 +7,7 @@ import Image from 'next/image';
 const Beneficios = () => {
   return (
     <section className="cor-b-p1 py-md-6 py-4">
-      <div className="container-md container-fluid">
+      <div className="container-xl container-fluid">
         <div className="row  text-center text-md-start align-items-center d-md-flex d-grid">
           <div className="col">
             <Image width="550px" height="340px" src={Destaque} alt="" />

@@ -20,7 +20,7 @@ import Carrosel3 from '../../Ultilidades/Carrosel3';
 const Trabalhos = () => {
   return (
     <section id = "trabalhos" className="cor-b-3 py-md-6 py-4">
-      <div className="container-md container-fluid ">
+      <div className="container-xl container-fluid ">
         <h1 className="cor-p1 text-center mb-4 fw-semibold">SITES RECENTES</h1>
         <div className=" d-sm-flex d-grid gap-4">
           <div className="col">

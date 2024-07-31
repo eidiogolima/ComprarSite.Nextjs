@@ -24,7 +24,8 @@ export default function Home() {
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#C147E9"/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" type = "image/png" sizes = "16x16" href="/favicon.png" /> 
+        
+        <link rel="icon" type = "image/png" sizes = "16x16" href="/favicon.png" />
       </Head>
       <main>
         <Header/>

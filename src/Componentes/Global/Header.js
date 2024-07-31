@@ -1,13 +1,13 @@
-import React from 'react'
-import Logo from '../../assests/public/logo.svg'
-import Link from 'next/link'
-import Icon from '../../assests/icons/esfera-header.svg'
 import Image from 'next/image'
+import Link from 'next/link'
+import React from 'react'
+import Icon from '../../assests/icons/esfera-header.svg'
+import Logo from '../../assests/public/logo.svg'
 
 const Header = () => {
   return (
     <header className='cor-b-1 shadow py-2 border'>
-      <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-lg p-2 justify-content-between">
+      <nav className="navbar navbar-expand-md bg-light d-flex container-md-fluid container-xl p-2 justify-content-between">
         <Link href='/' aria-label="Navegar para home">
           <Image width ="285px" height='34px' style={{"width": '200px'}} src={Logo} alt="Home-site" />
         </Link>
@@ -50,7 +50,7 @@ const Header = () => {
             </li>
 
             <li className="nav-item ">
-              <a className="nav-link cor-11 fw-semibold "target="_blank"rel="noreferrer noopener" href={`https://wa.me/5511915647291`}>
+              <a className="nav-link cor-11 fw-semibold "target="_blank"rel="noreferrer noopener" href={`https://wa.me/5511930648828`}>
                 CONTATO
               </a>
             </li>
@@ -62,9 +62,9 @@ const Header = () => {
             <li className="nav-item shadow-sm">
 
               
-              <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href={"https://wa.me/5511915647291"}>
+              <a className="nav-link btn btn-primary  text-white fw-semibold "target="_blank"rel="noreferrer noopener" href={"https://wa.me/5511930648828"}>
 
-              (11)91564-7291
+              (11) 93064-8828
               </a>
             </li>
           </ul>

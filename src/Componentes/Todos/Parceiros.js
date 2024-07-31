@@ -5,7 +5,7 @@ import Sixcode from '../../../assests/parceiros/six.svg';
 const Parceiros = () => {
   return (
     <section className="cor-b-2 py-md-6 py-4">
-      <div className="container-md container-fluid">
+      <div className="container-xl container-fluid">
         <h1 className="fw-semibold mb-4 cor-p1 text-center">PARCEIROS</h1>
         <div className="row d-sm-flex d-grid gap-3 align-items-center mx-2 logo-parceiros text-center  align-items-center">
           <div className="col d-flex rounded p-3 cor-b-1 shadow justify-content-center">

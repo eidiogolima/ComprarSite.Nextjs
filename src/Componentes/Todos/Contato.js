@@ -1,9 +1,9 @@
-import React from 'react';
 import emailjs from '@emailjs/browser';
-import Whats from '../../assests/icons/wp.svg';
+import Image from 'next/image';
+import React from 'react';
 import Iconmail from '../../assests/icons/email.svg';
 import Instagram from '../../assests/icons/ig.svg';
-import Image from 'next/image'
+import Whats from '../../assests/icons/wp.svg';
 
 const Contato = () => {
   const [numero, setNumero] = React.useState('');
@@ -40,7 +40,7 @@ const Contato = () => {
 
   return (
     <section className="cor-b-1 " id="contato">
-      <div className="container-md  container-fluid position-relative z-2 py-md-6 py-4">
+      <div className="container-xl  container-fluid position-relative z-2 py-md-6 py-4">
         <div className="row d-grid d-md-flex align-items-center cor-b-1 shadow rounded p-2 p-md-5 py-4 mx-2 mx-sm-0">
           <div className="col ">
             <h1 className="cor-p1 mb-4 fw-bold">Vamos conversar?😉</h1>
@@ -55,7 +55,7 @@ const Contato = () => {
                 <a className = "listImportant"
                   target="_blank"
                   rel="noreferrer noopener"
-                  href="https://wa.me/5511915647291"
+                  href="https://wa.me/5511930648828"
                 >
                   <Image style={{ width: 'auto' }} src={Whats} alt="" />
                   <p className="cor-7 fw-semibold align-self">
